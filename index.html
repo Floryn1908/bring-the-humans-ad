@@ -358,7 +358,11 @@
   }
 
   @media (min-width: 700px) {
-    .steps { grid-template-columns: repeat(3, 1fr); }
+    .steps { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 1000px) {
+    .steps { grid-template-columns: repeat(4, 1fr); }
   }
 
   .step {
@@ -459,7 +463,7 @@
   </div>
 
   <div class="shell how">
-    <h2>Cara kerjanya, tiga langkah</h2>
+    <h2>Cara kerjanya, empat langkah</h2>
     <ol class="steps">
       <li class="step">
         <span class="step-num">1</span>
@@ -475,6 +479,11 @@
         <span class="step-num">3</span>
         <h3>Menang dan klaim</h3>
         <p>Kalau entry kamu menang, klaim USDC-nya dari escrow langsung ke wallet yang sama.</p>
+      </li>
+      <li class="step">
+        <span class="step-num">4</span>
+        <h3>Ajak teman juga</h3>
+        <p>Setelah daftar, kamu dapat kode invite sendiri. Teman yang daftar lewat link kamu terikat ke kode kamu.</p>
       </li>
     </ol>
   </div>
